@@ -101,6 +101,7 @@ const updateUser = async (req, res, next) => {
     return res.status(400).json("error")
   }
 };
+
 const deleteUser = async (req, res, next) => {
   try {
     const { id } = req.params;
